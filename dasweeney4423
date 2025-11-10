@@ -66,7 +66,7 @@
         <div class="hero-right">
           <div class="profile-photo">
             <!-- Put a photo named david.jpg in the repository -->
-            <img src="david.jpg" alt="Portrait of David Sweeney" />
+            <img src="headshot.jpg" alt="Portrait of David Sweeney" />
           </div>
 
           <div class="social-grid">
