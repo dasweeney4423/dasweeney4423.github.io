@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>David Sweeney | Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <div class="site-wrapper">
+    <header class="site-header">
+      <div class="nav">
+        <div class="nav-brand">David A. Sweeney</div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="publications.html">Publications</a>
+          <a href="talks.html">Talks &amp; Posters</a>
+          <a href="teaching.html">Teaching &amp; Service</a>
+          <a href="education.html">Education</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-card">
+      <h1 class="page-title">Contact</h1>
+      <p class="page-intro">
+        I’m happy to hear from collaborators, students, and anyone interested in deep-diving cetaceans,
+        statistical ecology, or marine conservation.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Direct email</h3>
+          <p>
+            University email:<br />
+            <strong>ds344 [at] st-andrews [dot] ac [dot] uk</strong>
+          </p>
+          <p>
+            Research &amp; collaboration email:<br />
+            <strong>dsweeney [at] marecotel [dot] org</strong>
+          </p>
+          <p>
+            When writing, please feel free to reference relevant publications or ongoing work so I
+            can respond more effectively.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Send a message</h3>
+          <p style="font-size: 0.85rem; color: #9ca3af;">
+            This form uses your email client via <code>mailto:</code>. If you prefer, you can always
+            email me directly instead.
+          </p>
+          <form action="mailto:ds344@st-andrews.ac.uk" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button class="btn primary" type="submit">
+              <i class="fa-regular fa-paper-plane"></i>
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      © <span id="year"></span> David A. Sweeney
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
