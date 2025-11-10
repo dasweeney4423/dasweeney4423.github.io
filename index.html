@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>David Sweeney | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome for logos -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-foo"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <div class="site-wrapper">
+    <header class="site-header">
+      <div class="nav">
+        <div class="nav-brand">David A. Sweeney</div>
+        <nav class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="publications.html">Publications</a>
+          <a href="talks.html">Talks &amp; Posters</a>
+          <a href="teaching.html">Teaching &amp; Service</a>
+          <a href="education.html">Education</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-card">
+      <section class="hero">
+        <div class="hero-text">
+          <h1>David A. Sweeney</h1>
+          <p class="subtitle">
+            PhD Student in Statistics · University of St Andrews<br />
+            Affiliated Researcher · Foundation for Marine Ecology and Telemetry Research (MarEcoTel)
+          </p>
+
+          <p class="blurb">
+            I develop statistical and modelling tools to understand the behaviour, ecology, and
+            population consequences of disturbance in deep-diving cetaceans, with a focus on
+            goose-beaked whales in the Southern California Bight and beyond.
+          </p>
+
+          <p class="keywords">
+            Research interests: marine mammal ecology · mark-recapture · animal movement ·
+            population consequences of disturbance · Bayesian modelling
+          </p>
+
+          <div class="hero-actions">
+            <!-- Make sure Sweeney_CV.pdf is in the repo root -->
+            <a class="btn primary" href="Sweeney_CV.pdf" download>
+              <i class="fa-solid fa-file-arrow-down"></i>
+              Download CV
+            </a>
+          </div>
+
+          <p class="email">
+            ✉️ ds344 [at] st-andrews [dot] ac [dot] uk · dsweeney [at] marecotel [dot] org
+          </p>
+        </div>
+
+        <div class="hero-right">
+          <div class="profile-photo">
+            <!-- Put a photo named david.jpg in the repository -->
+            <img src="david.jpg" alt="Portrait of David Sweeney" />
+          </div>
+
+          <div class="social-grid">
+            <!-- ORCID -->
+            <a
+              class="social-btn orcid"
+              href="https://orcid.org/0000-0001-8285-0225"
+              target="_blank"
+              rel="noopener"
+              aria-label="ORCID"
+            >
+              <i class="fa-brands fa-orcid"></i>
+            </a>
+
+            <!-- Bluesky: update YOUR_HANDLE -->
+            <a
+              class="social-btn bluesky"
+              href="https://bsky.app/profile/YOUR_HANDLE.bsky.social"
+              target="_blank"
+              rel="noopener"
+              aria-label="Bluesky"
+            >
+              <i class="fa-solid fa-cloud"></i>
+            </a>
+
+            <!-- LinkedIn: update YOUR-LINKEDIN-SLUG -->
+            <a
+              class="social-btn linkedin"
+              href="https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG/"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <!-- Google Scholar: replace with your profile URL -->
+            <a
+              class="social-btn scholar"
+              href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"
+              target="_blank"
+              rel="noopener"
+              aria-label="Google Scholar"
+            >
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+
+            <!-- GitHub -->
+            <a
+              class="social-btn github"
+              href="https://github.com/dasweeney4423"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      © <span id="year"></span> David A. Sweeney
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
