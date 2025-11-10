@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>David Sweeney | Teaching & Service</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <div class="site-wrapper">
+    <header class="site-header">
+      <div class="nav">
+        <div class="nav-brand">David A. Sweeney</div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="publications.html">Publications</a>
+          <a href="talks.html">Talks &amp; Posters</a>
+          <a href="teaching.html" class="active">Teaching &amp; Service</a>
+          <a href="education.html">Education</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-card">
+      <h1 class="page-title">Teaching &amp; Service</h1>
+      <p class="page-intro">
+        Roles in teaching, supervision, mentoring, and professional service. Replace these examples
+        with the items from your CV.
+      </p>
+
+      <div class="section-block">
+        <h2>Teaching</h2>
+        <ul class="simple-list">
+          <li>
+            <strong>Demonstrator / Tutor</strong><br />
+            Module name, University of St Andrews, year(s). Short description of duties.
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-block">
+        <h2>Professional service &amp; outreach</h2>
+        <ul class="simple-list">
+          <li>
+            <strong>Example outreach activity</strong><br />
+            Details, year, brief description.
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      © <span id="year"></span> David A. Sweeney
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
