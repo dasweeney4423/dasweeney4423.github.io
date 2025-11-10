@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>David Sweeney | Talks & Posters</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <div class="site-wrapper">
+    <header class="site-header">
+      <div class="nav">
+        <div class="nav-brand">David A. Sweeney</div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="publications.html">Publications</a>
+          <a href="talks.html" class="active">Talks &amp; Posters</a>
+          <a href="teaching.html">Teaching &amp; Service</a>
+          <a href="education.html">Education</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-card">
+      <h1 class="page-title">Talks &amp; Posters</h1>
+      <p class="page-intro">
+        A selection of invited talks, conference presentations, and posters related to my research
+        on deep-diving cetaceans and statistical ecology.
+      </p>
+
+      <ul class="simple-list">
+        <!-- Fill with entries from your CV -->
+        <li>
+          <strong>Example talk title</strong><br />
+          Conference or venue, location, year.<br />
+          Short description if you want one.
+        </li>
+        <!-- Repeat li blocks for each talk/poster -->
+      </ul>
+    </main>
+
+    <footer class="site-footer">
+      © <span id="year"></span> David A. Sweeney
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
