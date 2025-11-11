@@ -131,7 +131,7 @@ body {
   border: 0;
   border-top: 2px solid currentColor; /* same color as surrounding text (incl. your name) */
   margin: 0.4rem 0 0.6rem;            /* tweak spacing as you like */
-  max-width: 380px;                   /* optional: keeps line from going too wide */
+  max-width: 750px;                   /* optional: keeps line from going too wide */
 }
 
 .subtitle {
