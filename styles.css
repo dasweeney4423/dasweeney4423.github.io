@@ -412,11 +412,11 @@ a:hover {
 
 /* Per-university sizing (adjust these independently) */
 .degree-logo-sta img {
-  max-width: 90px;   /* St Andrews logo size */
+  max-width: 125px;   /* St Andrews logo size */
 }
 
 .degree-logo-calvin img {
-  max-width: 90px;  /* Calvin logo size */
+  max-width: 125px;  /* Calvin logo size */
 }
 
 /* Stack vertically on small screens */
