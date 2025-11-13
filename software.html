@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>David Sweeney | Software</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="site-wrapper">
+
+    <!-- NAVBAR -->
+    <header class="site-header">
+      <div class="nav">
+        <div class="nav-brand">David A. Sweeney</div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="publications.html">Publications</a>
+          <a href="presentations.html">Presentations</a>
+          <a href="software.html" class="active">Software</a>
+          <a href="teaching.html">Teaching &amp; Outreach</a>
+          <a href="education.html">Education</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main-card">
+      <h1 class="page-title">Software</h1>
+      <p class="page-intro">
+        Open-source software I've developed or contributed to, largely within organizations dedicated to marine ecology, telemetry, and high-resolution animal-borne tag data.
+      </p>
+
+      <!-- ========== MarEcoTel ========== -->
+      <div class="section-block">
+        <h2>MarEcoTel</h2>
+        <p class="page-intro_top">
+          I serve as a developer within the
+          <a href="https://github.com/MarEcoTel" target="_blank" rel="noopener noreferrer">
+            MarEcoTel GitHub organization
+          </a>, contributing statistical and data-processing tools for marine ecology.
+        </p>
+
+        <ul class="simple-list">
+
+          <li>
+            <strong>GitHub Organization Developer</strong>  
+            <br/>R and MATLAB code development supporting marine mammal research, telemetry workflows, and statistical modeling.
+          </li>
+
+          <li>
+            <strong>ZcTransCMR</strong>  
+            <br/>Bayesian continuous-time open-population mark-recapture modeling framework.  
+            Tools for estimating survival, residency, and movement using continuous-time CMR data.
+          </li>
+
+          <li>
+            <strong>WCtagproc</strong>  
+            <br/>A suite of tools for processing Wildlife Computers satellite tag datasets, including data cleaning, filtering, and standardized extraction workflows.
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- ========== animaltags ========== -->
+      <div class="section-block">
+        <h2>animaltags</h2>
+        <p class="page-intro_top">
+          Developer within the
+          <a href="https://github.com/animaltags" target="_blank" rel="noopener noreferrer">
+            animaltags GitHub organization
+          </a>, which maintains tools for high-resolution movement tag data.  
+          See <a href="https://animaltags.org/" target="_blank" rel="noopener noreferrer">animaltags.org</a> for project details.
+        </p>
+
+        <ul class="simple-list">
+
+          <li>
+            <strong>Software for High-Resolution Animal-Borne Tag Data</strong>  
+            <br/>Contributor to cross-platform tools supporting data from high-resolution movement recorders used in behavioral and ecological research.
+          </li>
+
+          <li>
+            <strong>GitHub Organization Developer</strong>  
+            <br/>R, MATLAB, and Octave code development for onboard sensor calibration, data processing, and analysis.
+          </li>
+
+        </ul>
+      </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      © <span id="year"></span> David A. Sweeney
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
