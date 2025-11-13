@@ -317,6 +317,14 @@ body {
   max-width: 60rem;
 }
 
+.page-intro_top {
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-size: 0.95rem;
+  color: #cbd5f5;
+  max-width: 60rem;
+}
+
 /* Reusable section block */
 .section-block {
   margin-top: 18px;
