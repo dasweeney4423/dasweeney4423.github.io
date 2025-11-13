@@ -267,23 +267,23 @@ body {
 
 /* Per-icon zoom overrides (tweak these numbers freely) */
 .social-btn.orcid {
-  --icon-zoom: 120%;
-}
-
-.social-btn.bluesky {
   --icon-zoom: 110%;
 }
 
+.social-btn.bluesky {
+  --icon-zoom: 100%;
+}
+
 .social-btn.linkedin {
-  --icon-zoom: 160%;
+  --icon-zoom: 150%;
 }
 
 .social-btn.scholar {
-  --icon-zoom: 130%;
+  --icon-zoom: 100%;
 }
 
 .social-btn.github {
-  --icon-zoom: 150%;
+  --icon-zoom: 110%;
 }
 
 /* Optional: slight tint per network (unchanged) */
