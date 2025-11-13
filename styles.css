@@ -271,15 +271,15 @@ body {
 }
 
 .social-btn.bluesky {
-  --icon-zoom: 90%;
+  --icon-zoom: 75%;
 }
 
 .social-btn.linkedin {
-  --icon-zoom: 155%;
+  --icon-zoom: 162%;
 }
 
 .social-btn.scholar {
-  --icon-zoom: 95%;
+  --icon-zoom: 97%;
 }
 
 .social-btn.github {
