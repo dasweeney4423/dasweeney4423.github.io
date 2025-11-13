@@ -337,6 +337,15 @@ body {
   color: #bfdbfe;
 }
 
+.section-block h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: .9rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #bfdbfe;
+}
+
 /* Publication list */
 .pub-list,
 .simple-list {
