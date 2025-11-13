@@ -240,13 +240,21 @@ body {
   justify-content: center;
   text-decoration: none;
   overflow: hidden;
-  transition: transform 0.1s ease, box-shadow 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+  transition:
+    transform 0.1s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease,
+    background 0.15s ease;
+
+  /* default zoom level for icons (you can tweak this) */
+  --icon-zoom: 135%;
 }
 
+/* this uses the per-button variable for zoom */
 .social-btn img {
-  width: 22px;
-  height: 22px;
-  object-fit: contain;
+  width: var(--icon-zoom);
+  height: var(--icon-zoom);
+  object-fit: cover; /* fills the circle & crops excess */
 }
 
 /* Simple hover lift and glow */
@@ -257,19 +265,32 @@ body {
   box-shadow: 0 8px 18px rgba(15, 23, 42, 0.9);
 }
 
-/* Optional: slight tint per network (not required, can remove) */
-.social-btn.github:hover {
-  border-color: #22c55e;
+/* Per-icon zoom overrides (tweak these numbers freely) */
+.social-btn.orcid {
+  --icon-zoom: 170%;
 }
-.social-btn.linkedin:hover {
-  border-color: #22c55e;
+
+.social-btn.bluesky {
+  --icon-zoom: 135%;
 }
-.social-btn.orcid:hover {
-  border-color: #22c55e;
+
+.social-btn.linkedin {
+  --icon-zoom: 180%;
 }
-.social-btn.bluesky:hover {
-  border-color: #22c55e;
+
+.social-btn.scholar {
+  --icon-zoom: 160%;
 }
+
+.social-btn.github {
+  --icon-zoom: 170%;
+}
+
+/* Optional: slight tint per network (unchanged) */
+.social-btn.github:hover,
+.social-btn.linkedin:hover,
+.social-btn.orcid:hover,
+.social-btn.bluesky:hover,
 .social-btn.scholar:hover {
   border-color: #22c55e;
 }
