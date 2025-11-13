@@ -372,6 +372,19 @@ body {
   background: linear-gradient(135deg, #38bdf8, #22c55e);
 }
 
+.pub-author-highlight {
+  /* Fallback: simple accent color if gradients aren't supported */
+  color: #38bdf8;
+
+  /* Gradient text using same colors as nav active pill */
+  background: linear-gradient(135deg, #38bdf8, #22c55e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 400; /* normal weight (not bold) */
+}
+
 /* Links inside body text */
 a {
   color: #38bdf8;
