@@ -127,11 +127,18 @@ body {
   color: #f9fafb;
 }
 
+/* Index page roles styling */
+.role-text {
+  color: #2b7a78;       /* blue-green: tweak if needed to match theme */
+  font-weight: 500;     /* a bit stronger than normal text */
+  margin: 0.15rem 0;    /* tighter vertical spacing for these lines */
+}
+
 .role-separator {
   border: 0;
   border-top: 2px solid currentColor; /* same color as surrounding text (incl. your name) */
-  margin: 0.4rem 0 0.6rem;            /* tweak spacing as you like */
-  max-width: 750px;                   /* optional: keeps line from going too wide */
+  margin: 0.2rem 0;            /* tweak spacing as you like */
+  max-width: 725px;                   /* optional: keeps line from going too wide */
 }
 
 .subtitle {
