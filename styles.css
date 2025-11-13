@@ -402,12 +402,21 @@ a:hover {
   justify-content: center;
 }
 
+/* Base logo styling */
 .degree-logo img {
-  max-width: 90px;       /* tweak size here */
   height: auto;
   object-fit: contain;
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.6));
-  border-radius: 8px;    /* remove if you want sharp corners */
+  border-radius: 8px; /* remove if you want sharp corners */
+}
+
+/* Per-university sizing (adjust these independently) */
+.degree-logo-sta img {
+  max-width: 90px;   /* St Andrews logo size */
+}
+
+.degree-logo-calvin img {
+  max-width: 90px;  /* Calvin logo size */
 }
 
 /* Stack vertically on small screens */
