@@ -130,7 +130,7 @@ body {
 .role-separator {
   border: 0;
   border-top: 2px solid currentColor; /* same color as surrounding text (incl. your name) */
-  margin: 0.2rem 0;            /* tweak spacing as you like */
+  margin: 0.2rem 0.2;            /* tweak spacing as you like */
   max-width: 725px;                   /* optional: keeps line from going too wide */
 }
 
