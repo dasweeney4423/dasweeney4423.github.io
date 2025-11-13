@@ -275,25 +275,12 @@ body {
 }
 
 /* Per-icon zoom overrides (tweak these numbers freely) */
-.social-btn.orcid {
-  --icon-zoom: 110%;
-}
-
-.social-btn.bluesky {
-  --icon-zoom: 125%;
-}
-
-.social-btn.linkedin {
-  --icon-zoom: 167%;
-}
-
-.social-btn.scholar {
-  --icon-zoom: 135%;
-}
-
-.social-btn.github {
-  --icon-zoom: 110%;
-}
+.social-btn.orcid {--icon-zoom: 110%;}
+.social-btn.bluesky {--icon-zoom: 125%;}
+.social-btn.linkedin {--icon-zoom: 167%;}
+.social-btn.scholar {--icon-zoom: 135%;}
+.social-btn.github {--icon-zoom: 110%;}
+.social-btn.zotero {--icon-zoom: 100%;}
 
 /* Optional: slight tint per network (unchanged) */
 .social-btn.github:hover,
