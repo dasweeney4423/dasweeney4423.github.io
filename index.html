@@ -110,8 +110,12 @@
 
     <!-- FOOTER -->
     <footer class="site-footer">
-      © David A. Sweeney
+      <span id="year"></span> David A. Sweeney
     </footer>
   </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
