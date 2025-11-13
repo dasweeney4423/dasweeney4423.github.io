@@ -259,12 +259,18 @@ body {
 
 /* Optional: slight tint per network (not required, can remove) */
 .social-btn.github:hover {
-  border-color: #f9fafb;
+  border-color: #22c55e;
 }
 .social-btn.linkedin:hover {
-  border-color: #0ea5e9;
+  border-color: #22c55e;
 }
 .social-btn.orcid:hover {
+  border-color: #22c55e;
+}
+.social-btn.bluesky:hover {
+  border-color: #22c55e;
+}
+.social-btn.googlescholar:hover {
   border-color: #22c55e;
 }
 
