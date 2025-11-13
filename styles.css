@@ -271,7 +271,7 @@ body {
 }
 
 .social-btn.bluesky {
-  --icon-zoom: 100%;
+  --icon-zoom: 110%;
 }
 
 .social-btn.linkedin {
@@ -279,7 +279,7 @@ body {
 }
 
 .social-btn.scholar {
-  --icon-zoom: 110%;
+  --icon-zoom: 120%;
 }
 
 .social-btn.github {
