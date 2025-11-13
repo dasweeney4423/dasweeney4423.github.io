@@ -232,7 +232,7 @@ body {
 
 /* placement only */
 .social-btn.orcid    { grid-row: 1; grid-column: 1; }
-.social-btn.zotero   { grid-row: 1; grid-column: 2; }
+.social-btn.rgate   { grid-row: 1; grid-column: 2; }
 .social-btn.scholar  { grid-row: 1; grid-column: 3; }
 .social-btn.linkedin { grid-row: 2; grid-column: 1; }
 .social-btn.github   { grid-row: 2; grid-column: 2; }
@@ -280,12 +280,13 @@ body {
 .social-btn.linkedin {--icon-zoom: 167%;}
 .social-btn.scholar {--icon-zoom: 135%;}
 .social-btn.github {--icon-zoom: 110%;}
-.social-btn.zotero {--icon-zoom: 100%;}
+.social-btn.rgate {--icon-zoom: 100%;}
 
 /* Optional: slight tint per network (unchanged) */
 .social-btn.github:hover,
 .social-btn.linkedin:hover,
 .social-btn.orcid:hover,
+.social-btn.rgate:hover,
 .social-btn.bluesky:hover,
 .social-btn.scholar:hover {
   border-color: #22c55e;
