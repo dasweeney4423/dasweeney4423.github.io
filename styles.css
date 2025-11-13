@@ -225,9 +225,17 @@ body {
 .social-grid {
   display: grid;
   grid-template-columns: repeat(3, 38px);
+  grid-auto-rows: 38px;
   gap: 10px;
   justify-content: center;
 }
+
+/* placement only */
+.social-btn.github   { grid-row: 1; grid-column: 1; }
+.social-btn.orcid    { grid-row: 1; grid-column: 2; }
+.social-btn.scholar  { grid-row: 1; grid-column: 3; }
+.social-btn.linkedin { grid-row: 2; grid-column: 1; }
+.social-btn.bluesky  { grid-row: 2; grid-column: 3; }
 
 .social-btn {
   width: 38px;
