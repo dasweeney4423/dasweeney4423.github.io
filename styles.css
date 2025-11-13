@@ -381,6 +381,47 @@ a:hover {
   color: #f97316;
 }
 
+/* Degree blocks: text + logo side-by-side */
+.degree-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/* Keep your existing section-block look for the text */
+.degree-text {
+  flex: 1 1 auto;
+}
+
+/* Logo column */
+.degree-logo {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.degree-logo img {
+  max-width: 90px;       /* tweak size here */
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.6));
+  border-radius: 8px;    /* remove if you want sharp corners */
+}
+
+/* Stack vertically on small screens */
+@media (max-width: 640px) {
+  .degree-block {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .degree-logo {
+    margin-top: 8px;
+  }
+}
+
 /* ==============
    Footer
    ============== */
