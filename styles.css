@@ -322,6 +322,37 @@ body {
   max-width: 60rem;
 }
 
+/* Header row on content pages: title + button */
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/* Keep the text block from stretching too wide when the button is present */
+.page-header-text {
+  flex: 1 1 auto;
+}
+
+/* Keep the button from wrapping weirdly */
+.page-header .btn {
+  white-space: nowrap;
+  margin-top: 4px; /* nudges it down so it aligns nicely with the title */
+}
+
+/* Stack title and button on small screens */
+@media (max-width: 768px) {
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .page-header .btn {
+    margin-top: 8px;
+  }
+}
+
 /* Reusable section block */
 .section-block {
   margin-top: 18px;
